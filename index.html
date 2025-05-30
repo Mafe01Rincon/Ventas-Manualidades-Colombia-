@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Ventas Manualidades</title>
+
+    <!-- Bootstrap fue usado mediante componentes -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: palevioletred;
+            color: black;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.5;
+            word-spacing: 2px;
+            text-align: justify;
+        }
+
+        header {
+            background-color: indianred;
+            color: pink;
+            font-size: 1.5em;
+            text-align: center;
+            padding: 5px;
+            border-radius: 10px;
+            text-shadow: 1px 1px 2px rgb(65, 62, 62);
+        }
+
+        nav {
+            background-color: rgb(175, 109, 109);
+            width: 100%;
+            height: 50px;
+            float: none;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px rgb(202, 162, 135);
+        }
+
+        nav a {
+            color: darkred;
+            text-decoration: underline;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        nav a:hover {
+            background-color: lightcoral;
+            color: beige;
+            border-radius: 5px;
+        }
+
+        .texto-mediano {
+            font-size: 1.1em;
+        }
+
+        #descripción, #temas, #quienes-somos {
+            font-size: 1.5em;
+            text-align: left;
+            text-decoration: none;
+        }
+
+        footer, aside {
+            font-size: 1.1em;
+        }
+
+        h2 {
+            color: brown;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: hotpink;
+            text-shadow: 1px 1px 1px blanchedalmond;
+        }
+
+        td {
+            background-color: mediumvioletred;
+        }
+
+        ul li a {
+            text-decoration: underline;
+            color: mediumorchid;
+        }
+
+        ul li a:hover {
+            color: white;
+            background-color: purple;
+            border-radius: 4px;
+        }
+
+        p.texto-mediano, aside.texto-mediano {
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ventas Manualidades Colombia</h1>
+</header>
+
+<nav>
+    <a href="#descripción">Descripción</a>
+    <a href="#temas">Temas</a>
+    <a href="#tabla-productos">Productos</a>
+    <a href="#quienes-somos">Quiénes Somos</a>
+    <a href="#descuentos">Ofertas</a>
+    <a href="#contacto">Contáctanos</a>
+</nav>
+
+<section>
+    <article>
+        <h2 id="descripción">Descripción</h2>
+        <p class="texto-mediano">¡Bienvenidos a <strong>Ventas Manualidades</strong>!, un espacio dedicado a la venta de productos 
+                artesanales hechos a mano. Aquí podrás encontrar una <em>variedad de creaciones </em>, ideales para regalar o decorar tus
+                espacios, nuestro objetivo es <strong>promover el arte manual</strong> y brindar productos personalizados a nuestros clientes. 
+                Cada pieza que ofrecemos está elaborada con dedicación, amor y materiales de alta calidad, garantizando que recibas un producto 
+                especial y duradero. Además, apoyamos a los artesanos locales, incentivando la creatividad y el talento colombiano.</p>
+    </article>
+
+    <article>
+        <h2 id="temas">Temas</h2>
+        <ul class="texto-mediano">
+            <li><a href="#tabla-productos">Trabajos en Fomi</a></li>
+            <li><a href="#tabla-productos">Trabajos en Icopor</a></li>
+            <li><a href="#tabla-productos">Hiloramas</a></li>
+            <li><a href="#tabla-productos">Cerámicas Decoradas</a></li>
+            <li><a href="#descuentos">Descuentos</a></li>
+            <li><a href="https://www.manualweb.net/html/enlaces-html/" target="_blank">Enlaces en HTML</a></li>
+        </ul>
+    </article>
+</section>
+
+<section id="tabla-productos">
+    <h2>Tabla de Productos</h2>
+    <table>
+        <tr>
+            <th>Productos</th>
+            <th>Material</th>
+            <th>Tiempo Aproximado</th>
+            <th>Precio Estimado</th>
+        </tr>
+        <tr>
+            <td>Trabajo en Fomi.</td>
+            <td>Fomi, pegante, tizas, pinceles, pinturas, esponjas.</td>
+            <td>Depende del trabajo, además del tamaño.</td>
+            <td>Depende del trabajo y tamaño. El valor mínimo es de 10.000 pesos Colombianos.</td>
+        </tr>
+        <tr>
+            <td>Trabajo en Icopor.</td>
+            <td>Icopor, silicona, pinceles, pinturas, cortaicopor, acrílicos.</td>
+            <td>Depende del trabajo, además del tamaño.</td>
+            <td>Depende del trabajo y tamaño. El valor mínimo es de 10.000 pesos Colombianos.</td>
+        </tr>
+        <tr>
+            <td>Hiloramas.</td>
+            <td>Madera, puntillas, martillo, molde, lana o hilo.</td>
+            <td>Depende del trabajo, además del tamaño. Un aproximado es de 2 a 3 días.</td>
+            <td>El precio minimo es de 20.000 pesos Colombianos.</td>
+        </tr>
+        <tr>
+            <td>Cerámicas Decoradas.</td>
+            <td>Figura de ceramica, acrílicos, pinceles, laca.</td>
+            <td>Depende del trabajo, además del tamaño. Un aproximado es de 1 a 2 días.</td>
+            <td>Depende del trabajo y tamaño. El valor mínimo es de 20.000 pesos Colombianos.</td>
+        </tr>
+    </table>
+</section>
+
+<section id="quienes-somos">
+    <h2>¿Quiénes Somos?</h2>
+    <p class="texto-mediano">Somos una <strong>familia apasionada por las manualidades.</strong> Este proyecto nació de la unión junto con 
+        mi mamá, compartiendo el <em>amor por el arte hecho a mano.</em> Mi mamá, con su experiencia y creatividad, aporta las técnicas tradicionales y el 
+        conocimiento adquirido durante años. Yo, con ideas frescas e innovadoras, complemento el trabajo para ofrecer piezas únicas y
+        modernas, juntas formamos un equipo que trabaja con dedicación, esmero y mucho cariño para entregar productos que transmiten alegría, 
+        belleza y tradición.</p>
+
+    <!-- Componente Acordeón Bootstrap -->
+    <div class="accordion mt-4" id="accordionInfo">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                    Nuestra Misión
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionInfo">
+                <div class="accordion-body">
+                    Promover el arte manual colombiano ofreciendo productos artesanales de calidad que reflejen cultura, creatividad y dedicación.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                    Nuestra Visión
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionInfo">
+                <div class="accordion-body">
+                    Ser reconocidas como una marca artesanal líder a nivel nacional, destacando la tradición familiar y el valor del trabajo hecho a mano.
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<aside id="descuentos">
+    <h2 class="texto-grande">Noticias y Ofertas Especiales</h2>
+    <p>¡Solo necesitas suscribirte para recibir descuentos en nuestras nuevas colecciones de manualidades!</p>
+</aside>
+
+<h2 class="texto-grande" id="contacto">¡Contáctanos aquí!</h2>
+
+<footer class="texto-mediano">
+    <p>Nombre: Luz Marina Montero y Maria Fernanda Rincon | Socias Fundadoras de Ventas Manualidades Colombia</p>
+    <p>Contacto: 322 8253035</p>
+    <p>Contacto Secundario: 318 7532282</p>
+    <p>Correo Principal: mafe_mont_09@hotmail.com</p>
+    <p>Correo Secundario: mariafernandarinconmafe@hotmail.com</p>
+    <p>Institución: Skolmi</p>
+</footer>
+
+<article>
+    <h2>Imagen del Autor</h2>
+    <img src="Imagen.JPEG" alt="Imagen Maria Fernanda Rincon" width="300">
+</article>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
